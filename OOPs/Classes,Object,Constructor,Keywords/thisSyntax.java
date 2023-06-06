@@ -1,7 +1,7 @@
 public class Thissyntax {
         public static void main(String[] args) {
             //Creating an object named Vikash
-            Student Vikash = new Student(2,"hero",22.3f);
+            Student Vikash = new Student(2,"hero",22.3f); // this will be replaced by Vikash
             Student abhishek = new Student();
             System.out.println(Vikash.name);
             System.out.println(abhishek.name);
@@ -12,7 +12,8 @@ public class Thissyntax {
         int marks;
         String name;
         float percent;
-         Student (){ // tjis wii make all object created with zero function variable , value same
+         Student (){ // tjis wii make all object with zero function variable , value same
+            // this will be replaced by object name
             this.marks =5;
             this.name ="vik";
             this.percent = 88.9f;   
@@ -22,6 +23,9 @@ public class Thissyntax {
              //   name = naam;
                // percent = per;
            // }
+
+           // Student arpit = new Student(90,"Arpit",99.9f);
+           // here this is replced by arpit
             Student(int marks,String name,float percent){
                 this.marks = marks;  // instead of above we can use this everytime;
                 this.name = name;
