@@ -12,11 +12,12 @@ public class Thissyntax {
         int marks;
         String name;
         float percent;
+         int equal;
          Student (){ // tjis wii make all object with zero function variable , value same
             // this will be replaced by object name
             this.marks =5;
             this.name ="vik";
-            this.percent = 88.9f;   
+            this.percent = 88.9f; 
             }
          //   Student(int number, String naam, float per){
            //     marks = number;  // can be this but variable name cant be same here
@@ -30,5 +31,6 @@ public class Thissyntax {
                 this.marks = marks;  // instead of above we can use this everytime;
                 this.name = name;
                 this.percent = percent;
+                this.equal = 2023; //equal for all object that calls this constructor
             }
         }
