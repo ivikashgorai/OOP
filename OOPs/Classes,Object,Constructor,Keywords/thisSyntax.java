@@ -1,4 +1,4 @@
-public class Thissyntax {
+public class thisSyntax {
         public static void main(String[] args) {
             //Creating an object named Vikash
             Student Vikash = new Student(2,"hero",22.3f); // this will be replaced by Vikash

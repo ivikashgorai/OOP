@@ -1,5 +1,5 @@
-import java.util.Scanner;
-public class Syntax{
+
+public class SimpleSyntax{
     public static void main(String[] args) {
         //Creating an object named Vikash
         Student Vikash = new Student(22,"vikjh",9.99f);

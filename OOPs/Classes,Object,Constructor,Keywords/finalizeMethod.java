@@ -1,4 +1,4 @@
-public class CallConstructorfromanotherConstructor {
+public class finalizeMethod {
     public static void main(String[] args) {
         Student Vikash;
         for (int i = 0; i < 1000000000; i++) {
