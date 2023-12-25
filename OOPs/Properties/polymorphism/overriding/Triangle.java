@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphism.overriding;
 
 public class Triangle extends Shapes{
     void area() {

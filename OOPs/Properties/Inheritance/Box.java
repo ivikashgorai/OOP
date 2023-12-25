@@ -1,6 +1,6 @@
 package Inheritance;
 
-public class Box {
+ public class Box {
     double l;
     double w;
     double h;

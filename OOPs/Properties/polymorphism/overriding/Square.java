@@ -1,8 +1,8 @@
-package polymorphism;
+package polymorphism.overriding;
 
 
 public class Square extends Shapes{
-    void area() {
+     void area() {
         System.out.println("Area is square of side");
     }
 }
