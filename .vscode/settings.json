@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "OOPs/static",
+        "OOPs/Properties",
+        "OOPs/Classes,Object,Constructor,Keywords",
+        "OOPs/Access Control",
+        "OOPs/generics"
+    ]
+}
