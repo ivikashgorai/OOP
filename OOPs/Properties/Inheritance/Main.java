@@ -17,7 +17,7 @@ public class Main {
        // Extendsuper b4 = new Box(1,2,3); // this will give error because a child refrence variable and parent object is there
         //here object is type of parent and parent class is not aware of variable and methods of child class
         // parent class does not have access of child class variable and method
-        //so thius will give an error,so weight cant be initialized by.
+        //so th us will give an error,so weight cant be initialized by.
         
     }
 }

@@ -11,6 +11,9 @@ public class Main {
 }
 
 interface Engine {
+    static void v(){ // static concrete method can be created // non static nhi bana sakte
+        System.out.println("jgvj");
+    }
     void start();
 
     void acc();

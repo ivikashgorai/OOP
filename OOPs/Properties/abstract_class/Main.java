@@ -8,8 +8,8 @@ abstract class Parent {
         a=10;
     }
     
-    //static method inn abstract class
-    static void meth(){
+    //static method in abstract class
+    static void meth(){ // agar sirf void meth rehta toh kabhi call nhi ho pata kyuki object required hota call karne ke liye jo ki abstract class ka nhi ban sakta
         System.out.println("Static");
     }
 

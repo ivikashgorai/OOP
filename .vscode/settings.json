@@ -1,9 +1,12 @@
 {
     "java.project.sourcePaths": [
         "OOPs/static",
+        "OOPs/generics",
+        "OOPs/exception_handling",
         "OOPs/Properties",
         "OOPs/Classes,Object,Constructor,Keywords",
-        "OOPs/Access Control",
-        "OOPs/generics"
-    ]
+        "File Handling",
+        "awt"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
