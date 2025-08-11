@@ -1,0 +1,9 @@
+
+Imagine you have different "boxes" in a computer program, and each box represents a class. Now, if one box (class) wants to use a method from another box (class), both boxes need to be around and ready when the computer program is being put together (compiled). This is like making sure all the puzzle pieces fit together properly.
+
+This process of making sure the boxes (classes) match up is called "compile time." It's like a safety check to ensure that the methods (functions) in one box (class) can work properly with the methods in another box (class). However, this can make things a bit rigid because you need to have everything decided and set in place before running the program.
+
+// important paragraph
+Because of this, sometimes people end up putting more and more functions in the top-level box (class) so that these functions can be used by many other boxes (subclasses). This can make the program less flexible because everything is structured and decided from the beginning, and it might not be easy to add new functionalities later without changing a lot of things.
+
+So, in simple terms, having to decide everything in advance (compile time) and putting all functions at the top level can make a program less adaptable and dynamic.

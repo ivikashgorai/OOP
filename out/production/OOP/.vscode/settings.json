@@ -1,0 +1,15 @@
+{
+    "java.project.sourcePaths": [
+        "OOPs/static",
+        "OOPs/generics",
+        "OOPs/exception_handling",
+        "OOPs/Properties",
+        "OOPs/Classes,Object,Constructor,Keywords",
+        "File Handling",
+        "awt",
+        "OOPs\\lamda_functions",
+        "OOPs\\cloning"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.referencedLibraries": []
+}

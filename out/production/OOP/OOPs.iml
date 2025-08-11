@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Classes,Object,Constructor,Keywords" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Properties" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SingletonClass" isTestSource="false" packagePrefix="com.kunal.singleton" />
+      <sourceFolder url="file://$MODULE_DIR$/cloning" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/enums" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exception_handling" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/generics" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lamda_functions" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/packages" isTestSource="false" packagePrefix="packages.a" />
+      <sourceFolder url="file://$MODULE_DIR$/static" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
