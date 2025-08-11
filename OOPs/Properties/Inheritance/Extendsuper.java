@@ -8,7 +8,7 @@ public class Extendsuper extends Box {
       this.l = 99;
    }
    public Extendsuper(Extendsuper other){
-      super(other);
+      super(other); // calling constructor of parent class
       this.weight = other.weight; // because child class have all access of parent class like in main file line 15 here refrence other is type extensuper which have acess to parent class box
    }
 

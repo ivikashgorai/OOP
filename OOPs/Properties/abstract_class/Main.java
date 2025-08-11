@@ -1,7 +1,11 @@
 package abstract_class;
 
-abstract class Parent {
-    int age;
+abstract class  GrandParents {
+ abstract void carrier2();
+    
+}
+abstract class Parent extends GrandParents{
+    static int age;
     int a;
     public Parent(int age){ // abstract class can have instance variable and constructor
         this.age = age;
@@ -13,7 +17,7 @@ abstract class Parent {
         System.out.println("Static");
     }
 
-    void normal(){ //normal method in abstract class
+    void normal(){ //concrete method in abstract class
         System.out.println("I am normal method");
     }
 
@@ -26,6 +30,8 @@ class Son extends Parent {
         super(age);
         this.age = age;
     }
+
+    // Parent p = new Parent(); we cannot make object of parent class but constructor can be made and can be called by child class  
     @Override
     void carrier() {
         System.out.println("I want to be a Doctor");
@@ -34,6 +40,12 @@ class Son extends Parent {
     @Override
     void partner() {
         System.out.println("Her name is Son");
+    }
+
+    @Override
+    void carrier2() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'carrier2'");
     }
 }
 
@@ -52,17 +64,29 @@ class Daughter extends Parent {
     void partner() {
         System.out.println("Her name is daughter");
     }
+
+    @Override
+    void carrier2() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'carrier2'");
+    }
 }
 
 public class Main {
     public static void main(String[] args) {
         Son son = new Son(22); // we know overriding depend on object not refrence type
         Daughter daughter = new Daughter(19);
+        Parent parent = new Son(20);
+        parent.normal();
+        parent.meth();
+        parent.carrier(); // Son is ovverriding so its depends on Object, so sons carrier got printed
         son.carrier(); // simple overriding
         son.partner();
         daughter.carrier();
         Parent.meth();
         son.normal();
+        System.out.println(Parent.age);
+        son.meth();
       //  Parent son3 = new Son(21); // we can also write like this
        //Error --> Parent parent = new Parent(); // we cannot create object of abstract class
     }

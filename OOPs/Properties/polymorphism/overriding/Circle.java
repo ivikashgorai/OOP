@@ -2,6 +2,7 @@ package polymorphism.overriding;
 
 
 public class Circle extends Shapes{
+    String a ="2";
 
     // this will run when obj of Circle is created
     // hence it is overriding the parent method

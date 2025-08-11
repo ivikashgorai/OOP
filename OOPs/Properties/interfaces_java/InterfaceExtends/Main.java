@@ -10,5 +10,9 @@ public class Main implements B {
     public void greet() {
        
     }
+    public static void main(String[] args) {
+        A b = new Main();
+        System.out.println(b.a); // we can call variable but by object but not static methods
+    }
     
 }

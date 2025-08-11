@@ -30,7 +30,11 @@ public class CustomArrayList {
         return;
     }
     public void display(){
-        System.out.println(Arrays.toString(data));
+        int[] ret = new int[i+1];
+        for(int j=0;j<ret.length;j++){
+            ret[j] = data[j];
+        }
+        System.out.println(Arrays.toString(ret));
     }
 
     public int get(int index) {
