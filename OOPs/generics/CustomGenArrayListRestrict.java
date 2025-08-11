@@ -82,15 +82,15 @@ public class CustomGenArrayListRestrict<T extends Number> { //just array ke samn
         // list.add(10);
         // list.display();
 
-        CustomGenArrayListRestrict<String> list2 = new CustomGenArrayListRestrict<>();
-        list2.add("Vikas"); // we cant add string because T extends Number class which contain integer ,float,double etc
-        list2.add("Gorai");
-        list2.add("Hii");
-        display();
-        list2.remove(0);
-        display();
-        System.out.println( list2.get(1));
-        display();
+//        CustomGenArrayListRestrict<String> list2 = new CustomGenArrayListRestrict<>(); // this will give error as number requeired
+//        list2.add("Vikas"); // we cant add string because T extends Number class which contain integer ,float,double etc
+//        list2.add("Gorai");
+//        list2.add("Hii");
+//        display();
+//        list2.remove(0);
+//        display();
+//        System.out.println( list2.get(1));
+//        display();
 
     }
 }

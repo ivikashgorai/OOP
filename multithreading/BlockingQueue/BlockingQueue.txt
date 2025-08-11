@@ -1,0 +1,31 @@
+A BlockingQueue in Java is a special type of queue that supports thread-safe put and take operations —
+meaning multiple threads can safely add and remove elements without additional synchronization.
+
+The blocking part means:
+If you try to take from an empty queue, the thread will wait until an element is available.
+If you try to put into a full queue (in bounded queues), the thread will wait until space is available.
+
+*Key Points
+Thread-safe → No need to manually use synchronized.
+Blocking behavior:
+take() → waits if empty.
+put() → waits if full.
+Useful for producer-consumer problems.
+
+Types of BlockingQueue Classes:
+
+| Queue Type                | Behavior                                                |
+| ------------------------- | ------------------------------------------------------- |
+| **ArrayBlockingQueue**    | Fixed-size array, bounded                               |
+| **LinkedBlockingQueue**   | Optional capacity (default: Integer.MAX\_VALUE)         |
+| **PriorityBlockingQueue** | Orders elements using natural ordering or comparator    |
+| **DelayQueue**            | Elements become available after a delay                 |
+| **SynchronousQueue**      | No capacity; transfer happens hand-to-hand              |
+| **LinkedTransferQueue**   | Similar to LinkedBlockingQueue, optimized for transfers |
+
+
+How it works in the example:
+Producer thread adds items to the queue with put().
+If queue is full → it waits until consumer removes something.
+Consumer thread takes items from the queue with take().
+If queue is empty → it waits until producer adds something.
