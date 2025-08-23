@@ -5,8 +5,11 @@ public class Main {
         Car car = new Car();
         car.start();
         car.acc();
+        // car.v(); cannot be assed here cause there are multiple parant of car , so we cant call method of interface fron class object refrence
         System.out.println(Engine.maxSpeed);
-        car.v1();
+        // car.v1();
+        Engine e = new Car();
+        e.acc();
         // car.v(); not valid, static method in interface only belong to Interface
         //Engine car2 = new Car(); // we can but we cannot access any another method of interface other than Engine
         // car2.play() this will give error as it can only override method which is present in engine
